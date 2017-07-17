@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+#top-bar {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*I SOLVED EVERYTHING.. THIS STOPS SPACE BETWEEN HEADERS AND TOP AND SIDES OF PAGE*/
+    /*font-family: 'Fjalla One', sans-serif;*/
+    font-family: 'Oswald', sans-serif;
+    white-space: nowrap;
+    width: 100%;
+    vertical-align: middle;
+    z-index: 5;
+    background-color: white;
+    background-position: absolute;
+    display: inline-block;
+    width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    #top-bar {
+        display: none;
+    }
+}
+
+
+/*@media (max-width: 700px) { #top-bar{
+ display: none
+}}*/
+
+#top-bar li {
+    height: 100%;
+    display: inline-block;
+    font-weight: 380;
+}
+
+.contain {
+    /*background:#cccccc ;*/
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    text-align: center;
+    border: none;
+    height: 35px;
+    background-color: white;
+    top: 150px;
+    margin-right: 0;
+}
+
+#top-bar ul {
+    list-style-type: none;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 32px;
+    width: 100%;
+}
+
+.contain li a {
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-top: 100px;
+    width: auto;
+    width: 100%;
+}
+
+#top-bar li a:hover {
+    color: pink;
+}
+
+#jumbotron {
+    text-align: center;
+    height: 200px;
+    background-color: pink;
+}
+
+#title {
+    color: pink;
+    font-family: 'Oswald', sans-serif;
+}
+
+#userInput,
+#userInput[placeholder] {
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    left: 10px;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    height: 100px;
+    outline: hidden;
+    margin: 0;
+    top: 15px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    color: grey;
+    font-size: 50pt;
+    outline: none;
+}
+
+#input {
+    position: absolute;
+    top: 250px;
+    left: 65%;
+    height: 35px;
+    width: 6%;
+}
+
+#reset {
+    position: absolute;
+    top: 20px;
+    left: 90%;
+    height: 35px;
+    width: 6%;
+}
+
+#favorites {
+    position: fixed;
+    top: 250px;
+    background-color: pink;
+    height: 100%;
+    left: 75%;
+    width: 25%;
+    top: 0;
+    z-index: -1;
+}
+
+#one {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+#child {
+    position: absolute;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#child img {
+    padding: 0;
+    margin: 0 auto;
+    width: 50%;
+}
+
+button {
+    display: none;
+}
+
+:-input-placeholder {
+    color: pink;
+    font-family: 'Oswald', sans-serif;
+}
+
+#background {
+    background-color: #7F7F7F;
+}

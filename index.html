@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body id="background">
+    <div id="jumbotron">
+        <h3><input type="text" id="userInput" placeholder="HOW ARE YOU FEELING?" onkeydown="if (event.keyCode == 13)
+                        document.getElementById('input').click()"></h3>
+    </div>
+
+    <div id="top-bar">
+        <div class="contain">
+            <ul>
+                <li><a href="">HAPPY</a></li>
+                <li><a href="">SAD</a></li>
+                <li><a href="">MAD</a></li>
+                <li><a href="">BORED</a></li>
+                <li><a href="">SILLY</a></li>
+                <li><a href="">SCARED</a></li>
+                <li><a href="">SUPRISED</a></li>
+                <li><a href="">EXCITED</a></li>
+                <li><a href="">NERVOUS</a></li>
+                <li><a href="">SATISFIED</a></li>
+                <li><a href="">EMBARRASSED</a></li>
+                <li><a href="">TIRED</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <h1 id="one">Type in what your feeling at the top where it says "how are you feeling?" to recieve a gif</h1>
+    <div id="colorChange"></div>
+
+
+    <!--<div class="col-sm-8">-->
+
+    <button id="input" onclick="getData()">ENTER</button>
+
+    <div id="topper">
+    </div>
+
+
+    <!--</div>-->
+
+
+
+</body>
+
+
+
+
+</html>
